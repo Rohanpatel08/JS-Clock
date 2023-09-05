@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body style="color: #fff; background-color: #1d2630;">
+    <div class=" container mt-5">
+        <form>
+            <div class=" col-8 mb-3">
+                <label for="exampleInputFName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="exampleInputFName" aria-describedby="emailHelp"
+                    placeholder="John">
+            </div>
+            <div class="col-8 mb-3">
+                <label for="exampleInputLName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="exampleInputLName" placeholder="Doe">
+            </div>
+            <div class=" col-8 mb-3">
+                <label for="exampleInputRNo" class="form-label">Roll No</label>
+                <input type="number" class="form-control" id="exampleInputRNo" placeholder="1234">
+            </div>
+            <button type="button" class="btn btn-success add-btn">Submit</button>
+        </form>
+        <div class="col-10 mt-5">
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Roll Number</th>
+                        <th>Operations</th>
+                    </tr>
+                </thead>
+                <tbody id="student-list">
+                    <tr>
+                        <!-- <td>Rohan</td>
+                        <td>Bangoriya</td>
+                        <td>007</td>
+                        <td>
+                            <a href="#" class="btn btn-warning btn-sm edit">Edit</a>
+                            <a href="#" class="btn btn-danger btn-sm delete" id="delete">Delete</a>
+                        </td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
